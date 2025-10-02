@@ -1,0 +1,40 @@
+# 1. Environment and Secrets
+############################
+# Ignore the file containing your sensitive API keys and config
+.env 
+
+# 2. Python Virtual Environment
+################################
+# Ignore the virtual environment folder
+venv/
+.venv/
+
+# 3. Python Compiled Files
+###########################
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# 4. Operating System and Editor Files
+#######################################
+.DS_Store # macOS system file
+Thumbs.db # Windows thumbnail cache
+.vscode/ # VS Code settings
+.idea/   # PyCharm/IntelliJ settings
+
+# 5. Notebook and Streamlit Specific Files
+##########################################
+# Ignore the original notebook if you've moved to .py files (recommended)
+assistt (1).ipynb 
+
+# Streamlit creates a database to track usage/telemetry
+.streamlit/
+
+# 6. Data and Logs
+###################
+# Ignore any large data or log files
+data/
+logs/
+*.log
