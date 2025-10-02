@@ -5,7 +5,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-brightgreen.svg)](https://streamlit.io/)
 
 A powerful, multimodal AI chatbot built with **Google Gemini** and **Streamlit** to help students study. This application uses **Retrieval-Augmented Generation (RAG)** to allow students to upload their own study materials (PDFs, notes, images) and ask specific, contextual questions about them.
-
+Test the app here: https://studentassistaichatbot.streamlit.app/
 
 ##  Features
 
